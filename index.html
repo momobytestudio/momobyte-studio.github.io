@@ -5,25 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MomoByte Studio</title>
+
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             background: #101014;
-            color: white;
+            color: #ffffff;
             font-family: Arial, sans-serif;
         }
 
-        h1 {
+        header {
+            min-height: 65vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
             font-size: 3rem;
             letter-spacing: 8px;
         }
+
+        .about {
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 60px 25px 100px;
+        }
+
+        .about h2 {
+            color: #a78bfa;
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            color: #c5c5ce;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777780;
+            font-size: 0.85rem;
+        }
     </style>
 </head>
+
 <body>
-    <h1>SOON!</h1>
+
+    <header>
+        <h1>SOON!</h1>
+    </header>
+
+    <section class="about">
+        <h2>About MomoByte Studio</h2>
+
+        <p>
+            MomoByte Studio is a small independent
+            development team made up of three people.
+        </p>
+
+        <p>
+            We make games, Discord bots, and other
+            creative projects. We enjoy coming up
+            with ideas, trying new things, and
+            bringing our projects to life.
+        </p>
+
+        <p>
+            We're still growing as a team, and every
+            project gives us a chance to learn
+            something new and improve what we create.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 MomoByte Studio
+    </footer>
+
 </body>
 </html>
